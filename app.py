@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import numpy as np
 
 client = pymongo.MongoClient(
-    "mongodb://mongo:JX2D3ZJTYtjenJfbxSnl@containers-us-west-70.railway.app:5645"
+    ""
 )
 
 app = dash.Dash(__name__)
